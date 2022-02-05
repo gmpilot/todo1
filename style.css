@@ -3,10 +3,10 @@ html {
   padding: 0;
   scroll-behavior: smooth;
 }
-#body1 {
+.body1 {
   background-color: rgb(185, 219, 187);
 }
-#body2 {
+.body2 {
   background-color: rgb(32, 56, 53);
 }
 
