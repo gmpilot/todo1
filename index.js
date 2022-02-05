@@ -19,16 +19,16 @@ darkMood.addEventListener("click", function (e) {
   divBox.classList.add("div-box");
   divBox.classList.remove("div-box2");
   console.log("Welcome Dark Mood");
-divBox.classList.add("body2");
-  divBox.classList.remove("body1");
+bodyM.classList.add("body2");
+  bodyM.classList.remove("body1");
 });
 normalMood.addEventListener("click", function (e) {
   e.preventDefault();
   divBox.classList.add("div-box2");
   divBox.classList.remove("div-box");
   console.log("Welcome Normal Mood");
-divBox.classList.add("body1");
-  divBox.classList.remove("body2");
+bodyM.classList.add("body1");
+  bodyM.classList.remove("body2");
 });
 
 // dark mood end
