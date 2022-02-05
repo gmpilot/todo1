@@ -16,12 +16,14 @@ darkMood.addEventListener("click", function (e) {
   divBox.classList.add("div-box");
   divBox.classList.remove("div-box2");
   console.log("Welcome Dark Mood");
+document.body.style.backroundColor="gray";
 });
 normalMood.addEventListener("click", function (e) {
   e.preventDefault();
   divBox.classList.add("div-box2");
   divBox.classList.remove("div-box");
   console.log("Welcome Normal Mood");
+document.body.style.backroundColor="pink";
 });
 
 // dark mood end
