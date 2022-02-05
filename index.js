@@ -21,6 +21,7 @@ darkMood.addEventListener("click", function (e) {
   console.log("Welcome Dark Mood");
 bodyM.classList.add("body2");
   bodyM.classList.remove("body1");
+  divTbody.style.color="white";
 });
 normalMood.addEventListener("click", function (e) {
   e.preventDefault();
@@ -29,6 +30,7 @@ normalMood.addEventListener("click", function (e) {
   console.log("Welcome Normal Mood");
 bodyM.classList.add("body1");
   bodyM.classList.remove("body2");
+  divTbody.style.color="black";
 });
 
 // dark mood end
