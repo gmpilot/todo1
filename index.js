@@ -9,6 +9,8 @@ const review = document.querySelector("#review");
 const submit = document.querySelector("#submit");
 
 const divTbody = document.querySelector("#div-table-body");
+const divTable = document.querySelector(".table");
+
 
 const darkMood = document.querySelector("#moon1");
 const normalMood = document.querySelector("#sun1");
@@ -21,7 +23,7 @@ darkMood.addEventListener("click", function (e) {
   console.log("Welcome Dark Mood");
 bodyM.classList.add("body2");
   bodyM.classList.remove("body1");
-  divTbody.style.color="white";
+  divTable.style.color="white";
 });
 normalMood.addEventListener("click", function (e) {
   e.preventDefault();
@@ -30,7 +32,7 @@ normalMood.addEventListener("click", function (e) {
   console.log("Welcome Normal Mood");
 bodyM.classList.add("body1");
   bodyM.classList.remove("body2");
-  divTbody.style.color="black";
+  divTable.style.color="black";
 });
 
 // dark mood end
